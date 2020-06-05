@@ -1,0 +1,19 @@
+body {
+		font-family: "Arial", "helvetica", sans-serif;
+		font-size: 20px;
+
+}
+
+.centro{
+	text-align: center;
+	letter-spacing: 2px;
+	color: blue;
+	background-image: url(../img/sobre-background.jpg);
+	border: 10px groove red;
+}
+
+p{
+	text-align: justify;
+	text-indent: 40px;
+	letter-spacing: 3px;
+}

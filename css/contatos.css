@@ -1,0 +1,119 @@
+body{
+	color: #006400;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background-image: url(../img/ok.jpg);
+}
+h1{
+	background-image: url(../img/ok.jpg);
+	padding: 10px;
+}
+
+h2{
+	border-bottom: 2px solid #006400;
+	margin-top: 30px;
+}
+
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 2.5px solid green;
+    border-radius: 1em;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input, textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid green;
+}
+
+input:focus, textarea:focus {
+    border-color: green;
+}
+
+textarea {
+	vertical-align: top;
+    height: 5em;
+    resize: vertical;
+}
+
+.conteudo{
+	margin-right: auto;
+	margin-left:auto;
+	text-align: justify;
+	width: 940px; 
+}
+
+.button {
+    padding-left: 90px;
+ }
+
+button {
+    margin-left: .5em;
+    color: green;
+
+}
+
+.container{
+	margin: 0 auto;
+	width: 940px;
+	
+}
+
+footer{
+	background-image: url(../img/fundo-rodape.png);
+}
+
+.social a{
+	height: 32px;
+	width: 32px;
+	display: block;
+	text-indent: -9999px;
+}
+
+.social a[href*="facebook.com"]{
+	background-image: url(../img/facebook.png);
+}
+
+.social a[href*="twitter.com"]{
+	background-image: url(../img/twitter.png);
+}
+
+.social a[href*="plus.google.com"]{
+	background-image: url(../img/googleplus.png);
+}
+
+footer .container{
+	position: relative;
+}
+
+.social{
+	position: absolute;
+	top: 12px;
+	right: 0;
+}
+
+.social li{
+	float: left;
+	margin-left: 25px;
+}
+
+.rodape{
+	bottom: 0;
+    position: fixed;
+   	width: 100%;
+   	margin: 0 auto;
+}
+

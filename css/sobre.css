@@ -1,0 +1,95 @@
+body{
+	color: #006400;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-align: justify; 
+	background-image: url(../img/ok.jpg);
+	width: 940px;
+	margin-right: auto;
+	margin-left:auto;
+}
+
+h1{
+	background-image: url(../img/ok.jpg);
+	padding: 10px;
+}
+
+h2{
+	border-bottom: 2px solid #006400;
+	margin-top: 30px;
+}
+
+figure {
+	background-image: url(../img/hei.jpg);
+	border: 1px solid #006400;
+	text-align: center;
+	padding: 15px;
+	margin: 30px;
+}
+
+figcaption{
+	font-style: italic;
+	margin-top: 15px;
+}
+
+p{
+	text-indent: 40px;
+	text-align: justify;
+	padding: 0 45px;
+
+}
+
+#centro-distribuicao {
+	margin-left: auto;
+	margin-right: auto; /* <-- centralizar */
+	width: 550px;
+}
+
+#rodape {
+	color:#777;
+	margin: 30px 0;
+	padding: 30px 0;
+}
+
+#rodape img{
+	margin-right: 30px;
+	vertical-align: middle;
+	width: 94px;
+
+}
+
+#familia-pelho{
+	float: right;
+	margin: 0 0 10px 10px; /* <-- cima, baixo, esquerda, direita */
+}
+
+ul li:before{
+	content: '\270C';
+	opacity: 0.5;
+}
+
+.main{
+	line-height: 1.5;
+}
+
+p::first-letter{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+h1+p{
+	text-indent: 0px;
+}
+
+p::first-line{
+	font-style: italic;
+}
+
+p a{
+	text-decoration: none;
+	color: #006400;
+	text-decoration: underline;
+}
+
+/* .sombra{
+	text-shadow: 10px 10px 5px green, -5px -5px 4px green;
+} */
