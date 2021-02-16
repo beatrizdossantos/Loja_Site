@@ -1,15 +1,5 @@
 # StudyCommerce :womans_clothes:
 
-
-# Sumário :clipboard:
-<!--ts-->
-   * [Sumário](#Sumário)
-   * [Sobre](#Sobre)
-   * [Aprendizados](#Aprendizados)
-   * [Licença](#Licença)
-<!--te-->
-
-
 # Sobre :necktie:
 
 O StudyCommerce é um projeto no qual construí um site de uma loja de roupas (Mirror Fashion) para aprender os principais conceitos de HTML e CSS. Desenvolvido nas aulas de Desenvolvimento e Design Web do curso téncico da ETEC MCM.
